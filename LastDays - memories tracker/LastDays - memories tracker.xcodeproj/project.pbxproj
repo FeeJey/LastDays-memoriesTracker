@@ -9,23 +9,34 @@
 /* Begin PBXBuildFile section */
 		420B02C22BB170650051A991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B02C12BB170650051A991 /* AppDelegate.swift */; };
 		420B02C42BB170650051A991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B02C32BB170650051A991 /* SceneDelegate.swift */; };
-		420B02C62BB170650051A991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B02C52BB170650051A991 /* ViewController.swift */; };
 		420B02C92BB170650051A991 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 420B02C82BB170650051A991 /* Base */; };
 		420B02CC2BB170650051A991 /* LastDays___memories_tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 420B02CA2BB170650051A991 /* LastDays___memories_tracker.xcdatamodeld */; };
 		420B02CE2BB170660051A991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420B02CD2BB170660051A991 /* Assets.xcassets */; };
 		420B02D12BB170660051A991 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 420B02D02BB170660051A991 /* Base */; };
+		423F94652BBECD490046444D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F94632BBECD490046444D /* Date+Extension.swift */; };
+		423F94682BBECD5F0046444D /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F94662BBECD5F0046444D /* Memory.swift */; };
+		423F946D2BBECD730046444D /* ListMemoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F94692BBECD730046444D /* ListMemoriesTableViewCell.swift */; };
+		423F946E2BBECD730046444D /* ListMemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F946A2BBECD730046444D /* ListMemoriesViewController.swift */; };
+		423F94712BBECD7E0046444D /* EditMemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F946F2BBECD7E0046444D /* EditMemoriesViewController.swift */; };
+		423F94722BBECDAC0046444D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420B02C72BB170650051A991 /* Main.storyboard */; };
+		423F94742BBED0DA0046444D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F94732BBED0DA0046444D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		420B02BE2BB170650051A991 /* LastDays - memories tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LastDays - memories tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		420B02C12BB170650051A991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		420B02C32BB170650051A991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		420B02C52BB170650051A991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		420B02C82BB170650051A991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		420B02CB2BB170650051A991 /* LastDays___memories_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "LastDays___memories_tracker.xcdatamodel"; sourceTree = "<group>"; };
 		420B02CD2BB170660051A991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420B02D02BB170660051A991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420B02D22BB170660051A991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F94632BBECD490046444D /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		423F94662BBECD5F0046444D /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		423F94692BBECD730046444D /* ListMemoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMemoriesTableViewCell.swift; sourceTree = "<group>"; };
+		423F946A2BBECD730046444D /* ListMemoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMemoriesViewController.swift; sourceTree = "<group>"; };
+		423F946F2BBECD7E0046444D /* EditMemoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMemoriesViewController.swift; sourceTree = "<group>"; };
+		423F94732BBED0DA0046444D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +71,59 @@
 			children = (
 				420B02C12BB170650051A991 /* AppDelegate.swift */,
 				420B02C32BB170650051A991 /* SceneDelegate.swift */,
-				420B02C52BB170650051A991 /* ViewController.swift */,
+				423F94732BBED0DA0046444D /* ViewController.swift */,
 				420B02C72BB170650051A991 /* Main.storyboard */,
 				420B02CD2BB170660051A991 /* Assets.xcassets */,
 				420B02CF2BB170660051A991 /* LaunchScreen.storyboard */,
+				423F94642BBECD490046444D /* Expensions */,
+				423F94672BBECD5F0046444D /* Models */,
+				423F946C2BBECD730046444D /* Views */,
+				423F94702BBECD7E0046444D /* EditMemo */,
 				420B02D22BB170660051A991 /* Info.plist */,
 				420B02CA2BB170650051A991 /* LastDays___memories_tracker.xcdatamodeld */,
 			);
 			path = "LastDays - memories tracker";
+			sourceTree = "<group>";
+		};
+		423F94642BBECD490046444D /* Expensions */ = {
+			isa = PBXGroup;
+			children = (
+				423F94632BBECD490046444D /* Date+Extension.swift */,
+			);
+			path = Expensions;
+			sourceTree = "<group>";
+		};
+		423F94672BBECD5F0046444D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				423F94662BBECD5F0046444D /* Memory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		423F946B2BBECD730046444D /* ListNotes */ = {
+			isa = PBXGroup;
+			children = (
+				423F94692BBECD730046444D /* ListMemoriesTableViewCell.swift */,
+				423F946A2BBECD730046444D /* ListMemoriesViewController.swift */,
+			);
+			path = ListNotes;
+			sourceTree = "<group>";
+		};
+		423F946C2BBECD730046444D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				423F946B2BBECD730046444D /* ListNotes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		423F94702BBECD7E0046444D /* EditMemo */ = {
+			isa = PBXGroup;
+			children = (
+				423F946F2BBECD7E0046444D /* EditMemoriesViewController.swift */,
+			);
+			path = EditMemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +187,7 @@
 				420B02CE2BB170660051A991 /* Assets.xcassets in Resources */,
 				420B02D12BB170660051A991 /* Base in Resources */,
 				420B02C92BB170650051A991 /* Base in Resources */,
+				423F94722BBECDAC0046444D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420B02C62BB170650051A991 /* ViewController.swift in Sources */,
+				423F94682BBECD5F0046444D /* Memory.swift in Sources */,
+				423F94652BBECD490046444D /* Date+Extension.swift in Sources */,
 				420B02C22BB170650051A991 /* AppDelegate.swift in Sources */,
+				423F94742BBED0DA0046444D /* ViewController.swift in Sources */,
 				420B02CC2BB170650051A991 /* LastDays___memories_tracker.xcdatamodeld in Sources */,
+				423F94712BBECD7E0046444D /* EditMemoriesViewController.swift in Sources */,
 				420B02C42BB170650051A991 /* SceneDelegate.swift in Sources */,
+				423F946E2BBECD730046444D /* ListMemoriesViewController.swift in Sources */,
+				423F946D2BBECD730046444D /* ListMemoriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
